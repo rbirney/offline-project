@@ -29,6 +29,7 @@ const start = {
         totalSongs: numSongs,
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
         picture: loggedInUser.picture,
+        message: "I'm an offline project"
       };
 
       response.render('start', viewData);
