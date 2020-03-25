@@ -22,6 +22,12 @@ app.use(bodyParser.urlencoded({ extended: false, }));
 app.engine('.hbs', exphbs({
   extname: '.hbs',
   defaultLayout: 'main',
+  helpers: {
+    uppercase: function(word) {
+      let uppercaseWord = word.toUpperCase();
+      return uppercaseWord;
+    }
+  }
 }));
 app.set('view engine', '.hbs');
 

@@ -20,6 +20,21 @@
       "title": "Marge's playlist",
       "picture": "http://res.cloudinary.com/week10lab/image/upload/v1584999479/ykrvk4vbb5py1w7tvttu.jpg",
       "songs": []
+    },
+    {
+      "id": "3a0dbe36-e7ad-4f98-8e9f-f89306abd0c1",
+      "userid": "3fc6f482-7a53-459a-98e1-acbda01d6474",
+      "title": "Marge's playlist",
+      "picture": "http://res.cloudinary.com/week10lab/image/upload/v1585164086/jubakzchlozs9lucehxr.jpg",
+      "songs": [
+        {
+          "id": "96519467-336b-4e55-a127-e7a1fae499ef",
+          "title": "sonata no. 10",
+          "artist": "beethoven",
+          "genre": "classical",
+          "duration": "6"
+        }
+      ]
     }
   ]
 }

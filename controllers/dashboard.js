@@ -36,6 +36,7 @@ const dashboard = {
   },
   
  addPlaylist(request, response) {
+    c
     const loggedInUser = accounts.getCurrentUser(request);
     const newPlayList = {
       id: uuid(),
