@@ -1,0 +1,25 @@
+{
+  "playlistCollection": [
+    {
+      "id": "a2c6556f-ec1d-41b7-9d9c-a6ffe6592caa",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Homer's playlist",
+      "picture": "http://res.cloudinary.com/week10lab/image/upload/v1584980714/qy98zyicgzvr205l44a1.jpg",
+      "songs": []
+    },
+    {
+      "id": "dfd8e7e6-61f9-47ab-bd84-8f602ad74d95",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Another playlist",
+      "picture": "http://res.cloudinary.com/week10lab/image/upload/v1584980730/xrcbtdgspcxdhftpixe0.jpg",
+      "songs": []
+    },
+    {
+      "id": "ff28c024-45da-41ac-bb4b-e0566c1ec3dd",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "title": "Marge's playlist",
+      "picture": "http://res.cloudinary.com/week10lab/image/upload/v1584999479/ykrvk4vbb5py1w7tvttu.jpg",
+      "songs": []
+    }
+  ]
+}
