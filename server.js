@@ -27,6 +27,11 @@ app.engine('.hbs', exphbs({
       let uppercaseWord = word.toUpperCase();
       return uppercaseWord;
     },
+    capitalise: function(word) {
+      let capitalisedWord = word[0].toUpperCase() +  
+            word.slice(1);
+      return capitalisedWord;
+    },
     formatDate: function(date) {
         let d = new Date(date);
         let dateNum = d.getDate();
@@ -51,9 +56,9 @@ app.engine('.hbs', exphbs({
           "Dec"
         ];
       
-        
+        let dayname = days[day];
         let monthname = months[month];
-        return monthname + " " + dateNum + ", " + year;
+        return dayname + " " + monthname + " " + dateNum + ", " + year;
       }
   }
 }));

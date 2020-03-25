@@ -27,7 +27,15 @@
       "title": "Marge's playlist",
       "picture": "http://res.cloudinary.com/week10lab/image/upload/v1585164648/sl3o3hpunvtmsykhlbcn.jpg",
       "date": "2020-03-25T19:30:48.714Z",
-      "songs": []
+      "songs": [
+        {
+          "id": "5cb4129a-9ed8-4a25-9e99-6fbb652f91c7",
+          "title": "sonata no. 10",
+          "artist": "beethoven",
+          "genre": "classical",
+          "duration": "6"
+        }
+      ]
     }
   ]
 }
