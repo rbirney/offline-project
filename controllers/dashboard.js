@@ -36,7 +36,7 @@ const dashboard = {
   },
   
  addPlaylist(request, response) {
-    c
+    const date = new Date();
     const loggedInUser = accounts.getCurrentUser(request);
     const newPlayList = {
       id: uuid(),
@@ -44,6 +44,7 @@ const dashboard = {
       title: request.body.title,
       duration: request.body.duration,
       picture: request.files.picture,
+      date: date,
       songs: [],
     };
     logger.debug('Creating a new Playlist' + newPlayList);

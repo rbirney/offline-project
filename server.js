@@ -26,7 +26,35 @@ app.engine('.hbs', exphbs({
     uppercase: function(word) {
       let uppercaseWord = word.toUpperCase();
       return uppercaseWord;
-    }
+    },
+    formatDate: function(date) {
+        let d = new Date(date);
+        let dateNum = d.getDate();
+        let month = d.getMonth();
+        let year = d.getFullYear();
+        let day = d.getDay();
+      
+        let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+        let months = [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ];
+      
+        
+        let monthname = months[month];
+        return monthname + " " + dateNum + ", " + year;
+      }
   }
 }));
 app.set('view engine', '.hbs');
