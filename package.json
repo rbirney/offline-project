@@ -15,7 +15,7 @@
     "lowdb": "^0.14.0",
     "lodash": "^4.17.15",
     "cookie-parser": "^1.4.3",
-    "express-fileupload": "^0.1.2",
+    "express-fileupload": "^1.1.9",
     "cloudinary": "^1.8.0"
   },
   "engines": {
